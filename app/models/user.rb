@@ -4,5 +4,5 @@ class User < ApplicationRecord
   devise :database_authenticatable, :registerable,
          :recoverable, :rememberable, :validatable
   acts_as_voter
-  has_many :links
+  has_many :links, dependent: :destroy
 end
