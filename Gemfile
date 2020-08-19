@@ -52,7 +52,7 @@ group :test do
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
+gem 'acts_as_votable', '~> 0.12.1'
 gem 'bootstrap-sass', '~> 3.4', '>= 3.4.1'
 gem 'devise', '~> 4.7', '>= 4.7.2'
-
 gem 'tzinfo-data', platforms: %i[mingw mswin x64_mingw jruby]
